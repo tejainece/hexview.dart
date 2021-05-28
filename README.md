@@ -22,7 +22,7 @@ void main() {
 
 ```dart
 void main() {
-	print(hexView(5, List<int>.generate(125, (i) => i + 5)));
+	print(hexView(5, List<int>.generate(125, (i) => i + 5), printAscii: true));
 }
 ```
 
